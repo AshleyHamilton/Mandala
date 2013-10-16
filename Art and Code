@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+  	<!-- The following line will aid in embedding Processing sketches into you website -->
+  	<!-- You must include script.js and minim.js in a directory js/ in this folder -->
+  	<script type="text/javascript" src="js/script.js"></script>
+  	<script type="text/javascript" src="js/minim.js"></script>
+  	<title>Ashley's Art and Code Page</title>
+  	<meta charset = "UTF-8" />
+</head>
+<body>
+  	<h1>Level One Headline</h1>
+  	<h2>Level Two Headline</h2>
+  	<p>
+    		This is a paragraph.
+  	</p>
+ 
+  	<!-- Place your images in the image directory to keep everything clean and orderly -->
+ 	<img src="images/skyline.jpeg" width = "900" height = "360">
+
+	<p>How about some audio?  With controls<p>
+
+  	<!-- Place your sounds in the sound directory to keep everything clean and orderly -->
+	<p>Here a .wav file</p>
+	<audio src="sounds/youraudiofilenamehere.wav" controls="controls"></audio>
+	<p>And here, an .mp3 file</p>
+	<audio src="sounds/youraudiofilenamehere.mp3" controls="controls"></audio>
+
+	<p>And finally, some video with controls</p>
+
+	<video width="320" height="240" controls>
+ 	<source src="videos/yourvideofilenamehere.mp4" type="video/mp4"></video><br>
+</body>
+</html>
